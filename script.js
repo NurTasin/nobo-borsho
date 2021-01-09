@@ -34,7 +34,7 @@ function convertNum(num){
   num=num.replace('9','৯');
   return num;
 }
-alert("This website was created by Nur Mahmud Ul Alam Tasin.\nReport bug at github.com/NurTasin/nobo-borsho\nv1.0.3");
+alert("This website was created by Nur Mahmud Ul Alam Tasin.\nReport bug at github.com/NurTasin/nobo-borsho\nv1.0.4");
 const days = document.getElementById('days');
 const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');
@@ -46,7 +46,7 @@ const currentYear = new Date().getFullYear();
 const currentMonth= new Date().getMonth();
 const currentDate=new Date().getDate();
 const newYearTime = new Date(`April 14 ${currentMonth>3&&currentDate>14?currentYear + 1:currentYear} 00:00:00`);
-year.innerText = convertNum(currentMonth>3&&currentDate>14?currentYear - 592:currentYear-593);
+year.innerText = convertNum(currentMonth>3&&currentDate>14?currentYear - 593:currentYear-594);
 function updateCountdown() {
   const currentTime = new Date();
   const diff = newYearTime - currentTime;
