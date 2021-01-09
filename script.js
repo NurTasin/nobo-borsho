@@ -45,7 +45,7 @@ const currentYear = new Date().getFullYear();
 const currentMonth= new Date().getMonth();
 const currentDate=new Date().getDate();
 const newYearTime = new Date(`April 14 ${currentMonth>3&&currentDate>14?currentYear + 1:currentYear} 00:00:00`);
-year.innerText = convertNum(currentMonth>3&&currentDate>14?currentYear - 592:currentYear-593);
+year.innerText = convertNum(currentMonth>3&&currentDate>14?currentYear - 593:currentYear-592);
 function updateCountdown() {
   const currentTime = new Date();
   const diff = newYearTime - currentTime;
