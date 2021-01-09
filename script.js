@@ -34,6 +34,7 @@ function convertNum(num){
   num=num.replace('9','৯');
   return num;
 }
+alert("This website was created by Nur Mahmud Ul Alam Tasin.\nReport bug at github.com/NurTasin/nobo-borsho\nv1.0.3");
 const days = document.getElementById('days');
 const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');
